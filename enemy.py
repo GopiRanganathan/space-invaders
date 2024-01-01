@@ -22,7 +22,7 @@ class EnemyManager():
     def __init__(self):
         self.enemies = []
         self.score = 0
-        self.level = 2
+        self.level = 1
         self.enemy_types = [pygame.image.load('images/alien-1.png'), pygame.image.load('images/alien-2.png'), pygame.image.load('images/alien-3.png')]
         self.ufo = pygame.image.load('images/ufo.png')
         self.laser = pygame.image.load('images/laser.png')
